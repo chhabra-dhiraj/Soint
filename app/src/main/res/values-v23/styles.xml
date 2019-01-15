@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="actionOverflowButtonStyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:titleTextColor">@color/colorAccent</item>
+        <item name="android:subtitleTextColor">@color/colorAccent</item>
+    </style>
+
+</resources>

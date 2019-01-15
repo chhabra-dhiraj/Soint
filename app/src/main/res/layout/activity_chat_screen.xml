@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.ChatScreenActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar_chat_screen"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/chat_screen_elevation"
+        android:theme="@style/ContactsToolBarTheme" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_screen_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sending_fab_layout"
+        android:layout_below="@id/tool_bar_chat_screen"
+        android:elevation="@dimen/chat_screen_elevation" />
+
+    <LinearLayout
+        android:id="@+id/sending_fab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/input_message_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="17"
+            android:hint="@string/chat_message_hnt" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sending_fab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:srcCompat="@drawable/ic_send_white_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

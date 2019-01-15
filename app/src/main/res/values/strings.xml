@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Soint</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Chat!</string>
+    <string name="slide_1_desc">Chat and Share with your friends and family</string>
+
+    <string name="slide_2_title">Status</string>
+    <string name="slide_2_desc">Show your current status with Pictures and Videos</string>
+
+    <string name="slide_3_title">Calls</string>
+    <string name="slide_3_desc">Call without any Problem. No charges at all</string>
+
+    <string name="slide_4_title">Camera</string>
+    <string name="slide_4_desc">Use the Camera features to the fullest</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="contactsMainTitle">Select contact</string>
+    <string name="contactsSubTitle">186 contacts</string>
+    <string name="chat_message_hnt">Type a message</string>
+
+    <string name="search_title">Search People</string>
+    <string name="search_hint">Search People on Soint</string>
+    <string name="logout_title">Logout</string>
+    <string name="settings_title">Settings</string>
+    <string name="about_title">About</string>
+</resources>
