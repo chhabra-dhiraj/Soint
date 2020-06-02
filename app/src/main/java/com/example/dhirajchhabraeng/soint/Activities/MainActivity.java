@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
 
         personImageToolBar = findViewById(R.id.person_image_tool_bar);
 
-        Picasso.get()
-                .load(firebaseAuth.getCurrentUser().getPhotoUrl())
+        Picasso.get(). // specify an adapter (see also next example)
+                load(firebaseAuth.getCurrentUser().getPhotoUrl())
                 .placeholder(R.mipmap.ic_launcher_round)
                 .into(personImageToolBar);
 
