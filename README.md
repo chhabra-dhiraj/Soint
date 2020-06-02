@@ -1,5 +1,5 @@
 # Soint
-A Chat application using Socket.Io
+A Realtime Chat Application using Socket.IO
 
 ## Screenshots -
 <table>
